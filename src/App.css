@@ -1,0 +1,80 @@
+h1 {
+  text-align: center;
+}
+
+body {
+  background-color: #f9f9f9;
+}
+
+a {
+  color: #43AA8B;
+}
+
+a:visited {
+  color: #254441;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  padding: 0;
+}
+
+nav li {
+  cursor: pointer;
+  margin: 0 10px;
+}
+
+nav li.selected a {
+  color: #DB504A;
+}
+
+code {
+  padding: 2px 4px;
+  font-size: 90%;
+  color: #c7254e;
+  background-color: #f9f2f4;
+  border-radius: 4px;
+}
+
+.fa-html5,
+.fa-css3-alt,
+.fa-js {
+  font-size: 30px;
+  margin: 0 10px;
+  float: right;
+}
+
+.fa-html5 {
+  color: orange;
+}
+
+.fa-css3-alt {
+  color: blue;
+}
+
+.fa-js {
+  color: #eaea1f;
+}
+
+.App {
+}
+
+header {
+  background-color: #2d2d2d;
+  color: #FFF;
+  padding: 50px;
+}
+
+.content {
+  margin: 50px;
+}
+
+.card {
+  border: 1px solid lightgray;
+  border-radius: 4px;
+  background-color: #FFF;
+  margin: 20px;
+  padding: 10px 20px;
+}
